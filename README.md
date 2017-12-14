@@ -27,7 +27,7 @@ Step 3. i-term2 설치
 <a href="https://www.iterm2.com/">iterm2</a>
 
 ## 자주쓰는 명령어 모음
-```js
+```
 cat
 // 파일의 표준 출력
 // 포맷: cat [options] [file(s)]
@@ -128,6 +128,28 @@ whereis
 // $PATH로 지정된 경로에서 찾아 전체 경로명 출력
 // 포맷: whereis [실행프로그램]
 
+chmod
+// 권한설정
+
+!!
+// 바로 전 명령어 실행하기
+
+!s
+// 특정 문자로 시작하는 이전 명령어 실행하기
+
+cp [file] [file].back
+// 파일을 백업복사하기
+
+cp -r [directory1] [directory2/]
+// 1에 있는 모든 파일을 2로 옮긴다
+
+echo $PATH
+// 환경변수 확인
+
+gzip [file]
+// .gz로 압축
+
+gzip -d [file].gz
+// 압축 풀기
 
 ```
-
